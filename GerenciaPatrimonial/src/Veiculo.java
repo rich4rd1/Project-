@@ -8,7 +8,10 @@ public class Veiculo extends ItemPatrimonio {
 	public Veiculo() {
 		super();
 	}
+	public void muda(){
 
+	}
+	
 	public Veiculo(String nomeItem, int quantidade, double valor, String tipoVeiculo, String marcaVeiculo, String cor,
 			int qtdPortas) {
 		this.nomeItem = nomeItem;
@@ -57,5 +60,4 @@ public class Veiculo extends ItemPatrimonio {
 		return super.toString() + "TIPO: " + tipoVeiculo + "\nMARCA: " + marcaVeiculo + "\nCOR: " + cor
 				+ "\nQUANTIDADE DE PORTAS: " + qtdPortas + "\n";
 	}
-
 }
